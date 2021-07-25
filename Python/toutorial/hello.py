@@ -1,14 +1,17 @@
-n=int(input())
-x=list(map(int,input().split()))
-x.sort()
-ans=list()
-ans.insert(0,x[n-1])
-f=True
-for i in range(n-2,-1,-1):
-    if f :
-        ans.append(x[i]); f=False
-    else:
-        ans.insert(0,x[i]); f=True
-print(' '.join(map(str,ans)))
+print("hello python");
+print("Good")
 
-
+c=8+9
+name='maskur'
+print(name,c)
+name2='al'
+name=name+" "+name2
+d="3"
+print(c+(int)(d)) #casting
+print(name)
+del  name # del use to delete variable
+name=int(input("Enter a value : ")) #input always take string value
+print(name+c)
+name3="\\hasan\""  # to express any escape character use \
+print(name3)
+print ("c%d = ",c/int(d))
